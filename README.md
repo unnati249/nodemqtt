@@ -38,6 +38,6 @@ npm start
 - By entering mode 'start' in input control and hitting the post button will start the service. 
 - Similarly, by entering mode 'stop' in input control and hitting the post button will stop the service.
 - Also, Current status can be obtained by clicking the get button.
-- publisher micro service is publishing random data which is less than 30 to the broker and it can be received in subscriber micro service from the broker.
+- publisher micro service is publishing random number which is less than 30 to the broker and it can be received in subscriber micro service from the broker.
 - log is also displayed in console.
 
