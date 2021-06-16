@@ -1,0 +1,100 @@
+.welcome{
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    margin-top: 5vh;
+    height: 15vh;
+    background: rgb(46, 168, 213);
+    display:flex;
+    img{
+        height: 60px;
+        width: 300px;
+        display: block;
+        margin: auto;
+    }
+}
+
+.bodyStyle{
+    display: flex;
+    height: 80vh;
+}
+
+.getDiv{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .insideGet{
+        height: 60vh;
+        width: 30vw;
+        border: 2px #2ea8d5 solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .getButton{
+            height: 10%;
+            width: 50%;
+            margin-bottom: 20px;
+            border: 2px solid #2ea8d5;
+            background-color: #2ea8d5c2;
+            color: white;
+        }
+        .getResponse{
+            border: 2px black solid;
+            height: 50%;
+            width: 50%;
+            border: 2px solid #2ea8d5;
+            background-color: #2ea8d5c2;
+            color: white;
+        }
+    }
+}
+
+.postDiv{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .insidePost{
+        height: 60vh;
+        width: 30vw;
+        border: 2px #2ea8d5 solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .postButton{
+            height: 10%;
+            width: 50%;
+            margin-bottom: 20px;
+            border: 2px solid #2ea8d5;
+            background-color: #2ea8d5c2;
+            color: white;
+        }
+        .postResponse{
+            border: 2px black solid;
+            height: 50%;
+            width: 50%;
+            border: 2px solid #2ea8d5;
+            background-color: #2ea8d5c2;
+            color: white;
+            
+            input {
+                width: 100%;
+                box-sizing: border-box;
+            }
+        }
+    }
+}

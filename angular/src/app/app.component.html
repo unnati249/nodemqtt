@@ -1,0 +1,27 @@
+<div class="welcome">
+  <nav>
+    <img src="../assets/halliburton.png" alt="halliburton-logo">
+  </nav>
+  <div class="bodyStyle">
+    <div class="getDiv">
+      <div class="insideGet">
+        <button (click)="makeGetApiCall()" class="getButton">Get</button>
+        <div class="getResponse">
+          {{getResponse | json}}
+        </div>
+      </div>      
+    </div>
+    <div class="postDiv">
+      <form #modeForm="ngForm" (ngSubmit)="makePostApiCall(modeForm)">
+      <div class="insidePost">
+          <button type="submit"  class="postButton">Post</button>
+        <div class="postResponse">
+          <label for="mode">Mode</label>
+          <input type="text" id="mode" name="mode" class="form-control" ngModel>
+          <p>{{postResponse | json}}</p>
+        </div>
+      </div>
+    </form>
+    </div>
+  </div>
+</div>
